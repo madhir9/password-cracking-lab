@@ -72,11 +72,13 @@ Result: The PDF opened successfully and displayed the Networkwalks Cyber Securit
 ![PDF Hash](images/<img width="1329" height="730" alt="lock 3" src="https://github.com/user-attachments/assets/ac77fc1d-9135-4cfd-b345-47c1eb86bf99" />
 )
 
+
 🐞 Problems I Encountered & How I Solved Them
 
 One problem I encountered was making sure the complete PDF hash was copied correctly.
 
 I solved this by checking that the hash was in the correct $pdf$ format before loading it into the password-cracking tools
+
 
 💡 What I Learned
 
