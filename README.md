@@ -77,3 +77,11 @@ Result: The PDF opened successfully and displayed the Networkwalks Cyber Securit
 One problem I encountered was making sure the complete PDF hash was copied correctly.
 
 I solved this by checking that the hash was in the correct $pdf$ format before loading it into the password-cracking tools
+
+💡 What I Learned
+
+Through this project, I learned how password hashes can be extracted from protected files and tested using password-recovery tools.
+
+I also learned that simple passwords can be recovered more easily, showing the importance of using strong and unique passwords.
+
+This project gave me practical experience with password-security testing and tools such as John the Ripper.
