@@ -51,6 +51,7 @@ password1
 The password was recovered after 91 attempts.
 
 📸 Screenshot:
+
 images/<img width="1364" height="702" alt="hash c" src="https://github.com/user-attachments/assets/45caf81a-74d7-4e90-9418-e6378010e9ca" />
 
 images/<img width="1364" height="691" alt="hash 1" src="https://github.com/user-attachments/assets/17cfe0de-4dea-415a-8f4d-4272dcee171b" />
@@ -65,11 +66,16 @@ I entered the recovered password into the protected PDF.
 Result: The PDF opened successfully and displayed the Networkwalks Cyber Security Academy flag, confirming that the recovered password was correct and the lab was completed.
 
 📸 Screenshot:
+
 images/<img width="1362" height="768" alt="lock 1" src="https://github.com/user-attachments/assets/a54a66c3-d7ae-4064-b526-6bc9ade245f6" />
 
 images/<img width="1355" height="733" alt="lock 2" src="https://github.com/user-attachments/assets/f5f15c54-221e-4a0b-974b-d9d9d6a1a01e" />
 
 images/<img width="1329" height="730" alt="lock 3" src="https://github.com/user-attachments/assets/ac77fc1d-9135-4cfd-b345-47c1eb86bf99" />
 
+🐞 Problems I Encountered & How I Solved Them
 
+One problem I encountered was making sure the complete PDF hash was copied correctly.
+
+I solved this by checking that the hash was in the correct $pdf$ format before loading it into the password-cracking tools.
 
