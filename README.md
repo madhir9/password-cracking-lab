@@ -22,3 +22,43 @@ The main objectives of this project were to:
 * Johnny GUI
 * Windows 10
 
+## ⚙️ Lab Process
+
+### 1. Extracting the PDF Hash
+
+I uploaded the password-protected PDF to the **Networkwalks Hash Calculator**. The tool processed the file and generated a PDF hash beginning with `$pdf$`.
+
+📸 **Screenshot:**
+
+![PDF Hash](images/pdf-hash.png)
+
+---
+
+### 2. Cracking the Password
+
+I copied the extracted hash and entered it into the **Networkwalks Password Cracker**. The tool attempted to recover the password from the hash.
+
+📸 **Screenshot:**
+
+![Password Cracker](images/password-cracker.png)
+
+---
+
+### 3. Using John the Ripper
+
+I also used **John the Ripper** with **Johnny GUI** to perform the same password-recovery exercise. I saved the PDF hash in a text file and loaded it into Johnny before starting the attack.
+
+📸 **Screenshot:**
+
+![John the Ripper](images/johnny.png)
+
+---
+
+### 4. Opening the PDF
+
+After the password was recovered, I entered it into the protected PDF and successfully opened the file.
+
+📸 **Screenshot:**
+
+![Unlocked PDF](images/unlocked-pdf.png)
+
