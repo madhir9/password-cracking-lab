@@ -26,39 +26,49 @@ The main objectives of this project were to:
 
 ### 1. Extracting the PDF Hash
 
-I uploaded the password-protected PDF to the **Networkwalks Hash Calculator**. The tool processed the file and generated a PDF hash beginning with `$pdf$`.
+I extracted the password hash from the protected PDF and loaded it into **Johnny**, the graphical interface for John the Ripper.
+
+**Result:** Johnny recognized the hash as a PDF hash and displayed it in the password list, ready for the password-cracking process.
 
 📸 **Screenshot:**
 
-![PDF Hash](images/pdf-hash.png)
+![PDF Hash](images/<img width="1366" height="733" alt="password 1" src="https://github.com/user-attachments/assets/18ea24d6-68bb-43d6-8fa9-639843b69bde" />
+)
+![PDF Hash](images/<img width="1366" height="731" alt="password 2" src="https://github.com/user-attachments/assets/1683c04d-473e-4ff8-93c5-e95b6f3fa662" />
+)
 
 ---
 
 ### 2. Cracking the Password
 
-I copied the extracted hash and entered it into the **Networkwalks Password Cracker**. The tool attempted to recover the password from the hash.
+I entered the extracted PDF hash into the **Networkwalks Password Cracker** and started the attack.
 
-📸 **Screenshot:**
+**Result:** The tool successfully recovered the PDF password:
 
-![Password Cracker](images/password-cracker.png)
+```text
+password1
+```
+The password was recovered after 91 attempts.
 
----
+📸 Screenshot:
+![PDF Hash](images/<img width="1364" height="702" alt="hash c" src="https://github.com/user-attachments/assets/45caf81a-74d7-4e90-9418-e6378010e9ca" />
+)
+![PDF Hash](images/<img width="1364" height="691" alt="hash 1" src="https://github.com/user-attachments/assets/17cfe0de-4dea-415a-8f4d-4272dcee171b" />
+)
+![PDF Hash](images/<img width="1366" height="768" alt="hash 2" src="https://github.com/user-attachments/assets/0291a513-74f3-480a-a994-cd02b7e32fd5" />
+)
 
-### 3. Using John the Ripper
+3. Opening the Protected PDF
 
-I also used **John the Ripper** with **Johnny GUI** to perform the same password-recovery exercise. I saved the PDF hash in a text file and loaded it into Johnny before starting the attack.
+I entered the recovered password into the protected PDF.
 
-📸 **Screenshot:**
+Result: The PDF opened successfully and displayed the Networkwalks Cyber Security Academy flag, confirming that the recovered password was correct and the lab was completed.
 
-![John the Ripper](images/johnny.png)
-
----
-
-### 4. Opening the PDF
-
-After the password was recovered, I entered it into the protected PDF and successfully opened the file.
-
-📸 **Screenshot:**
-
-![Unlocked PDF](images/unlocked-pdf.png)
+📸 Screenshot:
+![PDF Hash](images/<img width="1362" height="768" alt="lock 1" src="https://github.com/user-attachments/assets/a54a66c3-d7ae-4064-b526-6bc9ade245f6" />
+)
+![PDF Hash](images/<img width="1355" height="733" alt="lock 2" src="https://github.com/user-attachments/assets/f5f15c54-221e-4a0b-974b-d9d9d6a1a01e" />
+)
+![PDF Hash](images/<img width="1329" height="730" alt="lock 3" src="https://github.com/user-attachments/assets/ac77fc1d-9135-4cfd-b345-47c1eb86bf99" />
+)
 
